@@ -1,0 +1,39 @@
+=== Registro de dispositivos conectados - Versión 1.4.0 ===
+Fecha de inicio del log: 15-09-24 15:27:54
+Changelog:
+
+Versión 1.4.0:
+- Se agrega la funcionalidad de cargar configuraciones desde un archivo .conf.
+- Configuración de la red, tiempo de espera y parámetros de ping desde el archivo .conf.
+
+
+ALERTA: Posible caída de la red detectada en 15-09-24 15:28:10
+ALERTA: Posible caída de la red detectada en 15-09-24 15:28:17
+ALERTA: Posible caída de la red detectada en 15-09-24 15:28:24
+ALERTA: Posible caída de la red detectada en 15-09-24 15:28:31
+ALERTA: Posible caída de la red detectada en 15-09-24 15:28:38
+ALERTA: Posible caída de la red detectada en 15-09-24 15:28:45
+ALERTA: Posible caída de la red detectada en 15-09-24 15:28:52
+ALERTA: Posible caída de la red detectada en 15-09-24 15:28:59
+ALERTA: Posible caída de la red detectada en 15-09-24 15:29:06
+ALERTA: Posible caída de la red detectada en 15-09-24 15:29:14
+ALERTA: Posible caída de la red detectada en 15-09-24 15:29:21
+ALERTA: Posible caída de la red detectada en 15-09-24 15:29:28
+ALERTA: Posible caída de la red detectada en 15-09-24 15:29:35
+ALERTA: Posible caída de la red detectada en 15-09-24 15:29:42
+ALERTA: Posible caída de la red detectada en 15-09-24 15:29:49
+ALERTA: Posible caída de la red detectada en 15-09-24 15:29:56
+ALERTA: Posible caída de la red detectada en 15-09-24 15:30:03
+ALERTA: Posible caída de la red detectada en 15-09-24 15:30:10
+ALERTA: Posible caída de la red detectada en 15-09-24 15:30:17
+ALERTA: Posible caída de la red detectada en 15-09-24 15:30:24
+ALERTA: Posible caída de la red detectada en 15-09-24 15:30:31
+ALERTA: Posible caída de la red detectada en 15-09-24 15:30:38
+ALERTA: Posible caída de la red detectada en 15-09-24 15:30:46
+ALERTA: Posible caída de la red detectada en 15-09-24 15:30:53
+ALERTA: Posible caída de la red detectada en 15-09-24 15:31:00
+ALERTA: Posible caída de la red detectada en 15-09-24 15:31:07
+ALERTA: Posible caída de la red detectada en 15-09-24 15:31:14
+ALERTA: Posible caída de la red detectada en 15-09-24 15:31:21
+ALERTA: Posible caída de la red detectada en 15-09-24 15:31:28
+ALERTA: Posible caída de la red detectada en 15-09-24 15:31:33

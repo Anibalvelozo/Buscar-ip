@@ -1,0 +1,350 @@
+=== Registro de dispositivos conectados - Versión 1.4.1 ===
+Fecha de inicio del log: 15-09-24 15:36:14
+Changelog:
+
+Versión 1.4.1:
+- Se agrega manejo de dispositivos desconectados.
+- Límite de intentos fallidos antes de marcar la red como caída.
+- Monitoreo de red y ping en paralelo utilizando threading.
+- Ping a 8.8.8.8 para verificar si hay red.
+
+
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:14
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:15
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:16
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:17
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:18
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:19
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:20
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:21
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:22
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:23
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:24
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:25
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:26
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:27
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:28
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:29
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:30
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:31
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:32
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:33
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:34
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:35
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:36
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:37
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:38
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:39
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:40
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:41
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:42
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:43
+ALERTA CRÍTICA: Red caída después de 5 intentos en 15-09-24 15:36:44
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:44
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:45
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:46
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:47
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:48
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:49
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:50
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:51
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:52
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:53
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:55
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:56
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:57
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:58
+=== Registro de dispositivos conectados - Versión 1.4.1 ===
+Fecha de inicio del log: 15-09-24 15:36:58
+Changelog:
+
+Versión 1.4.1:
+- Se agrega manejo de dispositivos desconectados.
+- Límite de intentos fallidos antes de marcar la red como caída.
+- Monitoreo de red y ping en paralelo utilizando threading.
+- Ping a 8.8.8.8 para verificar si hay red.
+
+
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:58
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:59
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:36:59
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:00
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:00
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:01
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:01
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:02
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:02
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:03
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:03
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:04
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:04
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:05
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:05
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:06
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:06
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:07
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:07
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:08
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:08
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:09
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:09
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:10
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:10
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:11
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:11
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:12
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:13
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:13
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:14
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:14
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:15
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:15
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:16
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:16
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:17
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:17
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:18
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:18
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:19
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:19
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:20
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:20
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:21
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:21
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:22
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:22
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:23
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:23
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:24
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:24
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:25
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:25
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:26
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:26
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:27
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:27
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:28
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:28
+ALERTA CRÍTICA: Red caída después de 5 intentos en 15-09-24 15:37:29
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:29
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:29
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:30
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:30
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:31
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:31
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:32
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:32
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:33
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:33
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:34
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:34
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:35
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:35
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:36
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:36
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:37
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:37
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:38
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:38
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:39
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:39
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:40
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:40
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:41
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:41
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:42
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:42
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:43
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:43
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:44
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:44
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:45
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:45
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:46
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:46
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:47
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:47
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:48
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:48
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:49
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:50
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:37:51
+=== Registro de dispositivos conectados - Versión 1.4.1 ===
+Fecha de inicio del log: 15-09-24 15:39:08
+Changelog:
+
+Versión 1.4.1:
+- Se agrega manejo de dispositivos desconectados.
+- Límite de intentos fallidos antes de marcar la red como caída.
+- Monitoreo de red y ping en paralelo utilizando threading.
+- Ping a 8.8.8.8 para verificar si hay red.
+
+
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:08
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:09
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:10
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:11
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:12
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:14
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:15
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:16
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:17
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:18
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:19
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:20
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:21
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:22
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:23
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:24
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:25
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:26
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:27
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:28
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:29
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:30
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:31
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:32
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:33
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:34
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:35
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:36
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:37
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:38
+ALERTA CRÍTICA: Red caída después de 5 intentos en 15-09-24 15:39:39
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:39
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:40
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:41
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:42
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:43
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:44
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:45
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:46
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:47
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:48
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:49
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:50
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:51
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:52
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:53
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:54
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:55
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:56
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:57
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:39:59
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:00
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:01
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:02
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:03
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:04
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:05
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:06
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:07
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:08
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:09
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:10
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:11
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:12
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:13
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:14
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:15
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:16
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:17
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:18
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:19
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:20
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:21
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:22
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:23
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:24
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:25
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:26
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:27
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:28
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:29
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:30
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:31
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:32
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:33
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:34
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:35
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:36
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:37
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:38
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:39
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:40
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:41
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:42
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:43
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:44
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:45
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:46
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:47
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:48
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:49
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:50
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:52
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:53
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:54
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:55
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:56
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:57
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:40:58
+=== Registro de dispositivos conectados - Versión 1.4.1 ===
+Fecha de inicio del log: 15-09-24 15:41:30
+Changelog:
+
+Versión 1.4.1:
+- Se agrega manejo de dispositivos desconectados.
+- Límite de intentos fallidos antes de marcar la red como caída.
+- Monitoreo de red y ping en paralelo utilizando threading.
+- Ping a 8.8.8.8 para verificar si hay red.
+
+
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:30
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:31
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:32
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:33
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:34
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:35
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:36
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:37
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:38
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:39
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:40
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:41
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:42
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:43
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:44
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:45
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:46
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:47
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:48
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:49
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:50
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:51
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:52
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:53
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:54
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:55
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:56
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:57
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:41:59
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:00
+ALERTA CRÍTICA: Red caída después de 5 intentos en 15-09-24 15:42:00
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:01
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:02
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:03
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:04
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:05
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:06
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:07
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:08
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:09
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:10
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:11
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:12
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:13
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:14
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:15
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:16
+ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:17
