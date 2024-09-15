@@ -348,3 +348,13 @@ ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:14
 ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:15
 ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:16
 ALERTA: Conexión perdida con 8.8.8.8 a las 15-09-24 15:42:17
+=== Registro de dispositivos conectados - Versión 1.4.1 ===
+Fecha de inicio del log: 15-09-24 16:37:22
+Changelog:
+
+Versión 1.4.1:
+- Se modifica la IP de la red a 192.168.100.0/24.
+- Se monitorea la IP 192.168.100.1 con ping para detectar la pérdida de conexión.
+- Se agrega manejo de señales para terminar el script con Ctrl + C.
+
+
