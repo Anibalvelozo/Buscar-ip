@@ -1,9 +1,9 @@
-from scapy.all import ARP, Ether, srp
-import time
+import configparser  # Para leer y escribir en archivos .conf
+import os  # Para verificar la existencia de archivos y ejecutar comandos
 from datetime import datetime
 import socket
-import configparser  # Para leer el archivo .conf
-import os  # Para ejecutar el comando ping en el sistema
+import time
+from scapy.all import ARP, Ether, srp
 
 # Definición de la versión del programa
 __version__ = "1.4.0"
@@ -14,6 +14,28 @@ Versión 1.4.0:
 - Se agrega la funcionalidad de cargar configuraciones desde un archivo .conf.
 - Configuración de la red, tiempo de espera y parámetros de ping desde el archivo .conf.
 """
+
+def crear_archivo_configuracion(archivo_conf):
+    """
+    Crea un archivo de configuración con valores predeterminados si no existe.
+    """
+    if not os.path.exists(archivo_conf):
+        config = configparser.ConfigParser()
+
+        # Sección CONFIG con valores predeterminados
+        config['CONFIG'] = {
+            'red': '192.168.1.0/24',
+            'tiempo_espera': '5',
+            'ip_ping': '8.8.8.8',
+            'intervalo_ping': '2'
+        }
+
+        # Escribir el archivo de configuración
+        with open(archivo_conf, 'w') as configfile:
+            config.write(configfile)
+        print(f"Archivo de configuración {archivo_conf} creado con valores predeterminados.")
+    else:
+        print(f"Archivo de configuración {archivo_conf} ya existe.")
 
 def leer_configuracion(archivo_conf):
     """
@@ -38,7 +60,7 @@ def obtener_hostname(ip):
     return hostname
 
 def obtener_nombre_archivo_log():
-    fecha_actual = datetime.now().strftime('%Y-%m-%d')
+    fecha_actual = datetime.now().strftime('%d-%m-%Y')
     return f"{fecha_actual}_dispositivos_conectados.log"
 
 def escribir_encabezado_log(archivo_log):
@@ -107,8 +129,13 @@ def monitorear_ping(ip, intervalo=1):
         time.sleep(intervalo)
 
 if __name__ == "__main__":
-    # Leer la configuración desde el archivo .conf
+    # Definir el nombre del archivo de configuración
     archivo_conf = "config.conf"
+    
+    # Verificar si existe el archivo de configuración y crearlo si no
+    crear_archivo_configuracion(archivo_conf)
+    
+    # Leer la configuración desde el archivo .conf
     red, tiempo_espera, ip_ping, intervalo_ping = leer_configuracion(archivo_conf)
 
     print(f"Escaneando la red {red} cada {tiempo_espera} segundos...")
@@ -118,7 +145,7 @@ if __name__ == "__main__":
     archivo_log = obtener_nombre_archivo_log()
     escribir_encabezado_log(archivo_log)
 
-    # Iniciar el escaneo de red en un hilo separado
+    # Iniciar el escaneo de red
     escanear_red(red, tiempo_espera)
     
     # Monitorear la conexión a la IP objetivo usando ping
