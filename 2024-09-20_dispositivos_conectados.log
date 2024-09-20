@@ -1,0 +1,113 @@
+=== Registro de dispositivos conectados - Versión 1.4.1 ===
+Fecha de inicio del log: 20-09-24 15:23:54
+Changelog:
+
+Versión 1.4.1:
+- Se modifica la IP de la red a 192.168.100.0/24.
+- Se monitorea la IP 192.168.100.1 con ping para detectar la pérdida de conexión.
+- Se agrega manejo de señales para terminar el script con Ctrl + C.
+
+
+IP: 192.168.1.88, MAC: 60:01:94:fe:0b:65, Hostname: No disponible conectado en 20-09-24 15:24:51
+IP: 192.168.1.102, MAC: 60:01:94:e0:33:be, Hostname: No disponible conectado en 20-09-24 15:24:51
+IP: 192.168.1.105, MAC: 50:57:9c:8f:ff:ec, Hostname: No disponible conectado en 20-09-24 15:24:51
+IP: 192.168.1.101, MAC: 60:01:94:fe:0a:25, Hostname: No disponible conectado en 20-09-24 15:24:51
+IP: 192.168.1.103, MAC: c4:4f:33:ea:bd:23, Hostname: No disponible conectado en 20-09-24 15:24:51
+IP: 192.168.1.86, MAC: 78:5d:c8:2b:84:91, Hostname: No disponible conectado en 20-09-24 15:24:51
+IP: 192.168.1.89, MAC: 48:3f:da:2a:bf:c9, Hostname: No disponible conectado en 20-09-24 15:24:51
+IP: 192.168.1.109, MAC: 24:4b:fe:e1:da:37, Hostname: DESKTOP-JPI6NBJ conectado en 20-09-24 15:24:51
+IP: 192.168.1.100, MAC: 60:01:94:e0:31:12, Hostname: No disponible conectado en 20-09-24 15:24:51
+IP: 192.168.1.104, MAC: 68:b9:d3:2a:a8:cd, Hostname: No disponible conectado en 20-09-24 15:24:51
+IP: 192.168.1.1, MAC: 44:48:b9:b9:7a:48, Hostname: No disponible conectado en 20-09-24 15:24:51
+IP: 192.168.1.117, MAC: d4:f5:47:41:2e:7b, Hostname: No disponible conectado en 20-09-24 15:24:51
+IP: 192.168.1.108, MAC: 46:6f:99:e6:f6:69, Hostname: No disponible conectado en 20-09-24 15:27:01
+IP: 192.168.1.112, MAC: 72:1c:2e:0a:ac:4e, Hostname: No disponible conectado en 20-09-24 15:28:18
+IP: 192.168.1.129, MAC: 44:d6:4b:df:4f:4e, Hostname: No disponible conectado en 20-09-24 15:28:18
+IP: 192.168.1.103, MAC: c4:4f:33:ea:bd:23, Hostname: No disponible conectado en 20-09-24 15:30:17
+IP: 192.168.1.101, MAC: 60:01:94:fe:0a:25, Hostname: No disponible conectado en 20-09-24 15:30:17
+IP: 192.168.1.102, MAC: 60:01:94:e0:33:be, Hostname: No disponible conectado en 20-09-24 15:30:17
+IP: 192.168.1.103, MAC: c4:4f:33:ea:bd:23, Hostname: No disponible conectado en 20-09-24 15:33:04
+IP: 192.168.1.101, MAC: 60:01:94:fe:0a:25, Hostname: No disponible conectado en 20-09-24 15:33:04
+IP: 192.168.1.102, MAC: 60:01:94:e0:33:be, Hostname: No disponible conectado en 20-09-24 15:33:04
+IP: 192.168.1.100, MAC: 60:01:94:e0:31:12, Hostname: No disponible conectado en 20-09-24 15:33:04
+IP: 192.168.1.102, MAC: 60:01:94:e0:33:be, Hostname: No disponible conectado en 20-09-24 15:35:55
+IP: 192.168.1.101, MAC: 60:01:94:fe:0a:25, Hostname: No disponible conectado en 20-09-24 15:35:55
+IP: 192.168.1.108, MAC: 46:6f:99:e6:f6:69, Hostname: No disponible conectado en 20-09-24 15:35:55
+IP: 192.168.1.108, MAC: 46:6f:99:e6:f6:69, Hostname: No disponible conectado en 20-09-24 15:38:00
+IP: 192.168.1.117, MAC: d4:f5:47:41:2e:7b, Hostname: No disponible conectado en 20-09-24 15:38:42
+IP: 192.168.1.88, MAC: 60:01:94:fe:0b:65, Hostname: No disponible conectado en 20-09-24 15:39:44
+IP: 192.168.1.102, MAC: 60:01:94:e0:33:be, Hostname: No disponible conectado en 20-09-24 15:39:44
+IP: 192.168.1.101, MAC: 60:01:94:fe:0a:25, Hostname: No disponible conectado en 20-09-24 15:39:44
+IP: 192.168.1.103, MAC: c4:4f:33:ea:bd:23, Hostname: No disponible conectado en 20-09-24 15:39:44
+IP: 192.168.1.100, MAC: 60:01:94:e0:31:12, Hostname: No disponible conectado en 20-09-24 15:39:44
+IP: 192.168.1.108, MAC: 46:6f:99:e6:f6:69, Hostname: No disponible conectado en 20-09-24 15:42:56
+IP: 192.168.1.89, MAC: 48:3f:da:2a:bf:c9, Hostname: No disponible conectado en 20-09-24 15:45:05
+IP: 192.168.1.102, MAC: 60:01:94:e0:33:be, Hostname: No disponible conectado en 20-09-24 15:47:04
+IP: 192.168.1.108, MAC: 46:6f:99:e6:f6:69, Hostname: No disponible conectado en 20-09-24 15:48:11
+IP: 192.168.1.112, MAC: 72:1c:2e:0a:ac:4e, Hostname: No disponible conectado en 20-09-24 15:50:21
+IP: 192.168.1.108, MAC: 46:6f:99:e6:f6:69, Hostname: No disponible conectado en 20-09-24 15:50:21
+IP: 192.168.1.104, MAC: 68:b9:d3:2a:a8:cd, Hostname: No disponible conectado en 20-09-24 15:51:28
+IP: 192.168.1.108, MAC: 46:6f:99:e6:f6:69, Hostname: No disponible conectado en 20-09-24 15:53:37
+IP: 192.168.1.103, MAC: c4:4f:33:ea:bd:23, Hostname: No disponible conectado en 20-09-24 15:55:22
+IP: 192.168.1.100, MAC: 60:01:94:e0:31:12, Hostname: No disponible conectado en 20-09-24 15:55:22
+IP: 192.168.1.101, MAC: 60:01:94:fe:0a:25, Hostname: No disponible conectado en 20-09-24 15:56:34
+IP: 192.168.1.102, MAC: 60:01:94:e0:33:be, Hostname: No disponible conectado en 20-09-24 15:56:34
+IP: 192.168.1.129, MAC: 44:d6:4b:df:4f:4e, Hostname: No disponible conectado en 20-09-24 15:56:34
+IP: 192.168.1.112, MAC: 72:1c:2e:0a:ac:4e, Hostname: No disponible conectado en 20-09-24 15:58:28
+IP: 192.168.1.108, MAC: 46:6f:99:e6:f6:69, Hostname: No disponible conectado en 20-09-24 15:58:28
+IP: 192.168.1.103, MAC: c4:4f:33:ea:bd:23, Hostname: No disponible conectado en 20-09-24 15:59:25
+IP: 192.168.1.88, MAC: 60:01:94:fe:0b:65, Hostname: No disponible conectado en 20-09-24 15:59:26
+IP: 192.168.1.102, MAC: 60:01:94:e0:33:be, Hostname: No disponible conectado en 20-09-24 15:59:26
+=== Registro de dispositivos conectados - Versión 1.4.1 ===
+Fecha de inicio del log: 20-09-24 16:00:31
+Changelog:
+
+Versión 1.4.1:
+- Se modifica la IP de la red a 192.168.100.0/24.
+- Se monitorea la IP 192.168.100.1 con ping para detectar la pérdida de conexión.
+- Se agrega manejo de señales para terminar el script con Ctrl + C.
+
+
+=== Registro de dispositivos conectados - Versión 1.4.1 ===
+Fecha de inicio del log: 20-09-24 16:01:02
+Changelog:
+
+Versión 1.4.1:
+- Se modifica la IP de la red a 192.168.100.0/24.
+- Se monitorea la IP 192.168.100.1 con ping para detectar la pérdida de conexión.
+- Se agrega manejo de señales para terminar el script con Ctrl + C.
+
+
+ALERTA: Posible caída de la red detectada en 20-09-24 16:01:18
+ALERTA: Posible caída de la red detectada en 20-09-24 16:01:25
+ALERTA: Posible caída de la red detectada en 20-09-24 16:01:32
+=== Registro de dispositivos conectados - Versión 1.4.1 ===
+Fecha de inicio del log: 20-09-24 16:01:41
+Changelog:
+
+Versión 1.4.1:
+- Se modifica la IP de la red a 192.168.100.0/24.
+- Se monitorea la IP 192.168.100.1 con ping para detectar la pérdida de conexión.
+- Se agrega manejo de señales para terminar el script con Ctrl + C.
+
+
+ALERTA: Posible caída de la red detectada en 20-09-24 16:01:58
+ALERTA: Posible caída de la red detectada en 20-09-24 16:02:06
+ALERTA: Posible caída de la red detectada en 20-09-24 16:02:14
+ALERTA: Posible caída de la red detectada en 20-09-24 16:02:22
+ALERTA: Posible caída de la red detectada en 20-09-24 16:02:30
+ALERTA: Posible caída de la red detectada en 20-09-24 16:02:37
+ALERTA: Posible caída de la red detectada en 20-09-24 16:02:46
+ALERTA: Posible caída de la red detectada en 20-09-24 16:02:54
+ALERTA: Posible caída de la red detectada en 20-09-24 16:03:02
+ALERTA: Posible caída de la red detectada en 20-09-24 16:03:09
+ALERTA: Posible caída de la red detectada en 20-09-24 16:03:17
+ALERTA: Posible caída de la red detectada en 20-09-24 16:03:25
+ALERTA: Posible caída de la red detectada en 20-09-24 16:03:33
+ALERTA: Posible caída de la red detectada en 20-09-24 16:03:41
+ALERTA: Posible caída de la red detectada en 20-09-24 16:03:49
+ALERTA: Posible caída de la red detectada en 20-09-24 16:03:57
+ALERTA: Posible caída de la red detectada en 20-09-24 16:04:05
+ALERTA: Posible caída de la red detectada en 20-09-24 16:04:13
+ALERTA: Posible caída de la red detectada en 20-09-24 16:04:21
+ALERTA: Posible caída de la red detectada en 20-09-24 16:04:29

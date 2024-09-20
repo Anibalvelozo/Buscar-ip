@@ -1,3 +1,4 @@
+import requests
 from scapy.all import ARP, Ether, srp
 import time
 from datetime import datetime
@@ -8,7 +9,7 @@ import sys
 import signal
 
 # Definición de la versión del programa
-__version__ = "1.4.1"
+__version__ = "1.5.1"
 
 # Registro de cambios (changelog)
 __changelog__ = """
@@ -17,6 +18,19 @@ Versión 1.4.1:
 - Se monitorea la IP 192.168.100.1 con ping para detectar la pérdida de conexión.
 - Se agrega manejo de señales para terminar el script con Ctrl + C.
 """
+
+# Función para enviar mensaje a Telegram
+def enviar_mensaje_telegram(mensaje, bot_token, chat_id):
+    url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
+    data = {"chat_id": chat_id, "text": mensaje}
+    try:
+        response = requests.post(url, data=data)
+        if response.status_code == 200:
+            print(f"Mensaje enviado a Telegram: {mensaje}")
+        else:
+            print(f"Error al enviar mensaje a Telegram: {response.status_code}")
+    except Exception as e:
+        print(f"Error al enviar mensaje a Telegram: {e}")
 
 def leer_configuracion(archivo_conf):
     """
@@ -50,7 +64,7 @@ def escribir_encabezado_log(archivo_log):
         file.write(f"Fecha de inicio del log: {datetime.now().strftime('%d-%m-%y %H:%M:%S')}\n")
         file.write(f"Changelog:\n{__changelog__}\n\n")
 
-def escanear_red(red, tiempo_espera=1):
+def escanear_red(red, tiempo_espera=1, bot_token=None, chat_id=None):
     dispositivos_previos = set()
     contador_caida_red = 0
 
@@ -70,6 +84,10 @@ def escanear_red(red, tiempo_espera=1):
                 archivo_log = obtener_nombre_archivo_log()
                 with open(archivo_log, 'a') as file:
                     file.write(mensaje_anomalia + "\n")
+                
+                if bot_token and chat_id:
+                    enviar_mensaje_telegram(mensaje_anomalia, bot_token, chat_id)
+
             time.sleep(tiempo_espera)
             continue
         else:
@@ -87,15 +105,19 @@ def escanear_red(red, tiempo_espera=1):
             print("Nuevos dispositivos conectados a la red:")
             for ip, mac, hostname in nuevos_dispositivos:
                 fecha_conexion = datetime.now().strftime('%d-%m-%y %H:%M:%S')
-                print(f"- IP: {ip}, MAC: {mac}, Hostname: {hostname} conectado en {fecha_conexion}")
+                mensaje = f"IP: {ip}, MAC: {mac}, Hostname: {hostname} conectado en {fecha_conexion}"
+                print(mensaje)
                 archivo_log = obtener_nombre_archivo_log()
                 with open(archivo_log, 'a') as file:
-                    file.write(f"IP: {ip}, MAC: {mac}, Hostname: {hostname} conectado en {fecha_conexion}\n")
+                    file.write(mensaje + "\n")
+                
+                if bot_token and chat_id:
+                    enviar_mensaje_telegram(mensaje, bot_token, chat_id)
 
         dispositivos_previos = dispositivos_actuales
         time.sleep(tiempo_espera)
 
-def monitorear_ping(ip, intervalo=1):
+def monitorear_ping(ip, intervalo=1, bot_token=None, chat_id=None):
     while True:
         response = os.system(f"ping -c 1 {ip} > /dev/null 2>&1")
         if response == 0:
@@ -107,6 +129,10 @@ def monitorear_ping(ip, intervalo=1):
             archivo_log = obtener_nombre_archivo_log()
             with open(archivo_log, 'a') as file:
                 file.write(mensaje_anomalia + "\n")
+            
+            if bot_token and chat_id:
+                enviar_mensaje_telegram(mensaje_anomalia, bot_token, chat_id)
+
         time.sleep(intervalo)
 
 def detener_script(signal, frame):
@@ -116,6 +142,10 @@ def detener_script(signal, frame):
 if __name__ == "__main__":
     # Manejo de señales para detener el script con Ctrl + C
     signal.signal(signal.SIGINT, detener_script)
+
+    # Token y chat_id de Telegram
+    bot_token = "7674959200:AAF73qisxuJ-MJOU7QLT0C_4FEoT1G7K_U8"
+    chat_id = "6788541791"
 
     # Leer la configuración desde el archivo .conf o usar las IPs por defecto
     archivo_conf = "config.conf"
@@ -136,7 +166,8 @@ if __name__ == "__main__":
     escribir_encabezado_log(archivo_log)
 
     # Iniciar el escaneo de red
-    escanear_red(red, tiempo_espera)
+    escanear_red(red, tiempo_espera, bot_token, chat_id)
     
     # Monitorear la conexión a la IP objetivo usando ping
-    monitorear_ping(ip_ping, intervalo_ping)
+    monitorear_ping(ip_ping, intervalo_ping, bot_token, chat_id)
+
